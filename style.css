@@ -69,10 +69,34 @@ nav>a{
 .collection img{
     width: 100%;
 }
+.collection-link{
+    color: rgb(238, 6, 122);
+    text-decoration: none;
+    margin-left: 1000px;
+}
 
 /*----------------------- 
    bottom-banner style 
 -----------------------*/
 .bottom-banner{
     display: flex;
+}
+/*---------------- 
+   footer style 
+-----------------*/
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+footer>ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+footer>ul>li{
+    list-style: none;
+    margin:5px;
+    padding: 5px;
 }
