@@ -37,6 +37,9 @@ nav>a{
     width: 100%;
     margin-top: -50px;
 }
+.half-width img:hover{
+    transform: translate(20px, 30px);
+}
 .link-button{
     text-decoration: none;
     border: 0px solid ;
@@ -89,14 +92,16 @@ footer{
     color: white;
     height: 200px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 footer>ul{
     display: flex;
-    text-align: center;
     justify-content: center;
 }
 footer>ul>li{
     list-style: none;
-    margin:5px;
     padding: 5px;
+    
 }
