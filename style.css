@@ -69,3 +69,10 @@ nav>a{
 .collection img{
     width: 100%;
 }
+
+/*----------------------- 
+   bottom-banner style 
+-----------------------*/
+.bottom-banner{
+    display: flex;
+}
