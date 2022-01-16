@@ -1,0 +1,36 @@
+/*-------------- 
+  common style 
+--------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav>a{
+    text-decoration: none;
+    font-size: 30px;
+    color:black
+}
+h1{
+    font-size: 45px;
+}
+/*------------------ 
+  top-banner style 
+------------------*/
+.top-banner{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+}
+.half-width img{
+    width: 100%;
+    margin-top: -50px;
+}
+.link-button{
+    text-decoration: none;
+    border: 0px solid ;
+    background-color: crimson;
+    padding: 8px 25px;
+    border-radius: 25px;
+    color: white;
+}
