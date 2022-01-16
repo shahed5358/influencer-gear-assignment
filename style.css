@@ -206,6 +206,7 @@ footer a, h5, small{
     }
     nav{
         text-align: center;
+        margin-right: 20px;
     }
     .top-banner{
         flex-direction: column;
