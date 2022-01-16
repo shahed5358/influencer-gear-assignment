@@ -109,9 +109,9 @@ footer>ul>li{
     
 }
 
-/*-----------------
-    Media queries 
- -----------------*/
+/*-------------------------------
+    Media queries style start 
+ ------------------------------*/
  /* Mobile Phone */
  @media only screen and (max-width:576px) {
      html,body{
@@ -119,11 +119,15 @@ footer>ul>li{
          max-width: 100%;
          scroll-behavior: smooth;
      }
+     h1{
+         font-size: 30px;
+     }
     nav{
         text-align: center;
     }
     .top-banner{
         flex-direction: column;
+        align-items: center;
     }
     .top-banner img{
         width: 100%;
@@ -136,10 +140,11 @@ footer>ul>li{
     }
     .collections{
         grid-template-columns: repeat(1, 1.6fr);
-        text-align: center;
+    
     }
     .bottom-banner{
         flex-direction: column;
+        align-items: center;
     }
      
 }
@@ -156,15 +161,19 @@ footer>ul>li{
     }
     .top-banner{
         flex-direction: column;
+        align-items: center;
     }
     .top-banner img{
         width: 100%;
     }
     .collections{
         grid-template-columns: repeat(1, 1fr);
-        text-align: center;
     }
     .bottom-banner{
         flex-direction: column;
+        align-items: center;
     }
 }
+/*----------------------------
+    Media queries style end 
+ ----------------------------*/
